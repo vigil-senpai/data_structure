@@ -66,6 +66,7 @@ class linked_list:
             index = index.nextval
 
     # POP   #
+    
     def pop_head(self):
         if(self.headval is None):
             self.headval = None
